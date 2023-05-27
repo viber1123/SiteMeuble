@@ -6,3 +6,21 @@ export const hero = {
   buttonText: "Shop Now",
 };
 
+export const stats = [
+  {
+    value: '7',
+    text: 'Année d"experience',
+  },
+  {
+    value: '2',
+    text: 'Ouvert dans le pays',
+  },
+  {
+    value: '10k+',
+    text: 'Meubles vendus',
+  },
+  {
+    value: '260+',
+    text: 'Variantes de meubles',
+  },
+];
