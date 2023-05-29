@@ -31,7 +31,6 @@ module.exports = {
       },
       backgroundImage: {
         hero: 'url("/src/assets/img/hero-bg.png")',
-        // newsletter: 'url("/src/assets/img/newsletter.png")',
       },
       dropShadow: {
         primary: '0px 4px 10px rgba(15, 27, 51, 0.05);',
