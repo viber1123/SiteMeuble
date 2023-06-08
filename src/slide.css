@@ -1,4 +1,4 @@
-/* .productSlider .swiper-pagination-bullet {
+.productSlider .swiper-pagination-bullet {
     background: #23262f;
   }
   
@@ -13,7 +13,7 @@
     z-index: 20;
   }
   
-  .productSlider .swiper-button-prev:hover,
+  /* .productSlider .swiper-button-prev:hover,
   .productSlider .swiper-button-next:hover,
   .testimonialSlider .swiper-button-prev:hover,
   .testimonialSlider .swiper-button-next:hover {
@@ -67,5 +67,5 @@
     .testimonialSlider .swiper-button-next {
       display: none;
     }
-  }
-   */
+  } */
+  
