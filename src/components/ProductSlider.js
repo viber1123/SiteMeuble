@@ -25,7 +25,7 @@ const ProductSlider = () => {
       modules={[Pagination, Navigation]}
       pagination={{ clickable: true }}
       navigation={true}
-      className="productSlider min-h-[1300px]"
+      className="productSlider min-h-[640px]"
     >
       {pages.map((page, index) => {
         return (
@@ -35,7 +35,7 @@ const ProductSlider = () => {
                 const { image, name, price, oldPrice } = product;
                 return (
                   <div
-                    className="w-full max-w-[290px] h-[380px] text-left"
+                    className="w-full max-w-[290px] h-[380px] text-left md:max-w-"
                     key={index}
                   >
                     <div className="border hover:border-accent rounded-[18px] w-full max-w[285px] h-full max-h-[292px] flex items-center justify-center mb-[15px] relative transition">
